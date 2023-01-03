@@ -31,7 +31,11 @@ if (args.length === 1) {
     )
     .catch(error => console.log(error));
 } else {
-  console.log("Verify the parameters entered. Ex: --validate | --stats | --stats --validate");
+  console.log("--Verify the parameters entered--" + "\n" +
+  "Ex: " + "\n" +
+  "--validate" + "\n" +
+  "--stats" + "\n" +
+  "--stats --validate");
 }
 // mdLinks(getPathFromArguments(arguments), getOptionsFromArguments(arguments))
 // .then(response => console.log(response))
